@@ -1,0 +1,46 @@
+body{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.content {
+  grid-area: jumbotron;
+  height: 37vh;
+}
+
+app-navigation{
+  grid-area: navigation;
+}
+
+app-header{
+  grid-area: header;
+}
+
+app-book-content{
+  grid-area: books;
+}
+
+.wrapper {
+  display: grid;
+  margin: 5px;
+  grid-gap: 5px;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "navigation navigation navigation"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "books books books"
+    "books books books";
+  background-color: #fff;
+  color: #444;
+}
+
+.header,
+.footer {
+  background-color: #999;
+}

@@ -1,0 +1,43 @@
+.content{
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons-container{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.popular{
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.view_all{
+  text-decoration: none;
+  color: #999999;
+  font-size: 22px;
+  font-family: 'Bebas Neue', cursive;
+}

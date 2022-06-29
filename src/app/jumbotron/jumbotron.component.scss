@@ -1,0 +1,72 @@
+*{
+  font-family: 'Bebas Neue', cursive;
+}
+
+app-jumbotron{
+  grid-area: jumbotron;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  background-color: #f3e7dd;
+  border-radius: 30px;
+}
+
+.text-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.text-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jumbotron-image-container{
+  width: 50%;
+}
+
+svg{
+  width: 55%;
+  color: #413b89;
+}
+
+h1{
+  color: #413b89;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.jumbotron-paragraph{
+  color: #beb6b0;
+  font-size: 20px;
+}
+
+.jumbotron-button {
+  margin-top: 2.5%;
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #c2a792;
+  color: white;
+  font-size: 16px;
+}
