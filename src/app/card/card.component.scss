@@ -10,12 +10,14 @@ img{
   align-items: center;
 }
 
-.card-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    margin-bottom: 10%;
+  }
 
 .card-info-container{
   display: flex;
@@ -26,4 +28,8 @@ img{
 
 h2, h3{
   margin: 0;
+}
+
+button{
+  margin-bottom: 3%;
 }

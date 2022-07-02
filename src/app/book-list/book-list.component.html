@@ -1,0 +1,22 @@
+<div class="booklist-container">
+
+  <div class="add-form-container">
+    <h1>CREATE A NEW LIST</h1>
+    <form class="add-list-form">
+      <div class="form-group">
+        <label for="list_name">List Name</label>
+        <input type="text" class="form-control" id="list_name" placeholder="List Name"  name="list_name" [(ngModel)]="list_name">
+      </div>
+      <button mat-raised-button color="primary" (click)="createList(list_name)">Submit</button>
+    </form>
+  </div>
+
+
+
+  <div class="list-container" *ngFor="let list of lists">
+      <h1 class="list_header">List of Books: {{list.listName}}</h1>
+      <div class="list-books-container">
+        <app-card *ngFor="let book of list.books" [name]="book.title" [author]="book.author" (click)="deleteFromList(book)"></app-card>
+      </div>
+    </div>
+</div>

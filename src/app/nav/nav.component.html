@@ -1,0 +1,93 @@
+<div class="content">
+  <div class="header-container">
+
+    <div class="logo-container">
+      <h1 class="logo-container"><a href="/home">Booksy</a></h1>
+    </div>
+
+    <div class="profile-info-container">
+      <div class="buttons-container">
+
+        <!-- Button trigger modal -->
+        <div class="buttons-container">
+          <button id="login-button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+            Log In
+          </button>
+
+          <!-- Button trigger modal -->
+          <button id="register-button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#registerModal">
+            Register
+          </button>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <form class="login-form">
+                  <h1>Login form</h1>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <form class="register-form">
+                  <h1>Register</h1>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1Reg" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelpReg" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1Reg" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Repeat Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2Reg" placeholder="Repeat Password">
+                  </div>
+                  <button id="submit-buttonReg" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</div>

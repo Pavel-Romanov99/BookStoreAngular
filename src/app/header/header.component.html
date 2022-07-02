@@ -1,16 +1,22 @@
 <div class="content">
   <div class="header-container">
-    <div class="logo-container">
-      <h1 class="logo-container"><a href="/home">Booksy</a></h1>
-    </div>
+
     <div class="search-bar-container">
-      <input type="search" class="search-bar" placeholder="Search by author, title or name">
+      <h1>START SEARCHING FOR YOUR FAVOURITE BOOKS</h1>
+      <form class="search-form">
+        <input type="search" class="search-bar" placeholder="Search by author, title or name" name="search" [(ngModel)]="search">
+        <button mat-raised-button color="primary" class="search-button" (click)="searchBook(search)">Search</button>
+      </form>
     </div>
     <div class="profile-info-container">
       <div class="buttons-container">
-        <button mat-stroked-button color="primary" class="auth-buttons">Log In</button>
-        <button mat-stroked-button color="primary" class="auth-buttons">Register</button>
+
       </div>
     </div>
   </div>
+
+</div>
+
+<div class="cards-container">
+  <app-card *ngFor="let book of foundBooks" [name]="book.title" [author]="book.author"></app-card>
 </div>

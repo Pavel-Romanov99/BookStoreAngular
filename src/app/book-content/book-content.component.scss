@@ -11,15 +11,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 75%;
 }
 
 .cards-container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
 }
+
 
 .buttons-container{
   display: flex;
@@ -28,6 +32,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  min-width: 90%;
 }
 
 .popular{

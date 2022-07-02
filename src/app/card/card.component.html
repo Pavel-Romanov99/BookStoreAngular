@@ -3,7 +3,8 @@
     <img src="../../assets/cover2.jpg" alt="">
   </div>
   <div class="card-info-container">
-    <h2>Book Name</h2>
-    <h3>Author</h3>
+    <h2>{{ this.name }}</h2>
+    <h3>{{ this.author }}</h3>
   </div>
+  <button mat-raised-button color="warn" (click)="deleteBook()" routerLink="/reload">Remove</button>
 </div>

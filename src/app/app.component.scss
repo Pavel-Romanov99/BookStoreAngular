@@ -7,12 +7,15 @@ body{
   height: 37vh;
 }
 
+
+
 app-navigation{
   grid-area: navigation;
 }
 
-app-header{
+app-nav{
   grid-area: header;
+  width: 100%;
 }
 
 app-book-content{
@@ -34,10 +37,12 @@ app-book-content{
     "jumbotron jumbotron jumbotron"
     "jumbotron jumbotron jumbotron"
     "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
+    "jumbotron jumbotron jumbotron"
     "books books books"
     "books books books";
-  background-color: #fff;
-  color: #444;
+    background-color: #fff;
+    color: #444;
 }
 
 .header,

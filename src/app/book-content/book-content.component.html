@@ -4,12 +4,10 @@
        <h1 class="popular">Popular now</h1>
        <a href="" class="view_all">View All</a>
     </div>
-    <div class="cards-container">
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
-      <app-card></app-card>
+    <div class="all-cards-container">
+      <div class="cards-container">
+        <app-card *ngFor="let book of books" [name]="book.title" [author]="book.author" (delete) = "deleteBook(book)"></app-card>
+      </div>
     </div>
   </div>
 </div>

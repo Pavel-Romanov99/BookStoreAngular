@@ -109,5 +109,8 @@
       }
     }
   },
-  "defaultProject": "BookStoreNG"
+  "defaultProject": "BookStoreNG",
+  "cli": {
+    "analytics": false
+  }
 }
